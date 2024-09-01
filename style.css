@@ -344,9 +344,9 @@ body {
 
 .card {
   border-style: ridge;
-  margin-top: 70px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
-  width: 150px;
+  width: 160px;
   gap: 5%;
 }
