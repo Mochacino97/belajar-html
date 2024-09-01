@@ -309,7 +309,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 20%;
+  height: 10%;
 }
 .container9 {
   display: flex;
@@ -341,15 +341,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.box1 {
-  width: 50px;
-  border-style: solid;
-}
 
 .card {
+  border-style: ridge;
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
-  border-style: ridge;
-  width: 50px;
-  gap: 10 px;
+  width: 150px;
+  gap: 5%;
 }
