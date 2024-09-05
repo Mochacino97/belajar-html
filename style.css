@@ -315,6 +315,7 @@ body {
   display: flex;
   justify-content: baseline;
   width: 1000px;
+  gap: 1em;
 }
 .container-kiri9 {
   text-transform: capitalize;
@@ -340,13 +341,152 @@ body {
   width: 1000px;
   display: flex;
   justify-content: space-between;
+  gap: 1em;
 }
 
 .card {
-  border-style: ridge;
-  margin-top: 60px;
   display: flex;
   flex-direction: column;
-  width: 160px;
-  gap: 5%;
+  width: 25%;
+}
+
+.gambar {
+  width: 100%;
+  height: 180px;
+  border-style: solid;
+}
+.tanggal {
+  font-size: 20px;
+  margin: 20px 0 10px 0;
+}
+.paragraph {
+  font-size: 20px;
+  margin: 10px 0 15px 0;
+}
+.selengkapnya {
+  font-size: 20px;
+  margin: 30px 0 50px 0;
+}
+
+.container11luar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container11dalam {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.kiri {
+  padding-top: 20px;
+}
+.tengah {
+  border-style: ridge;
+  font-size: 25px;
+  padding-top: 20px;
+}
+.kanan {
+  padding-top: 20px;
+}
+.container12luar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 150px 0 30px 0;
+}
+.container12dalam {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 30px 0;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.tulisanawal {
+  font-size: 30px;
+  height: 50px;
+  color: crimson;
+}
+.tulisan1 {
+  text-transform: capitalize;
+  font-size: 20px;
+  margin: 0 0 5px 0;
+}
+.tulisan2 {
+  font-size: 20px;
+  margin: 30px 0 5px 0;
+}
+.tulisan3 {
+  font-size: 20px;
+  margin: 5px 0 50px 0;
+}
+.tulisan4 {
+  font-size: 20px;
+  margin: 30px 0 70px 0;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.tulisanawal1 {
+  text-transform: capitalize;
+  font-size: 20px;
+  margin: 0 10px 50px 10px;
+}
+.tulisan {
+  font-size: 20px;
+  margin: 0 10px 0 10px;
+}
+.container13luar {
+  background-color: rgb(39, 39, 39);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container13dalam {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 25px 0;
+}
+.kotak1 {
+  position: fixed;
+  color: beige;
+  text-align: center;
+  text-transform: capitalize;
+  width: 25%;
+  height: 25px;
+  margin: 0 5px 0 0;
+}
+.kotak2 {
+  color: beige;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  width: 30%;
+  height: 30px;
+}
+.kotak3 {
+  color: beige;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  width: 30%;
+  height: 30px;
+}
+.kotak4 {
+  color: beige;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  width: 30%;
+  height: 30px;
 }
