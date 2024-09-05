@@ -382,14 +382,16 @@ body {
   padding-top: 20px;
 }
 .tengah {
+  text-align: center;
   border-style: ridge;
   font-size: 25px;
-  padding-top: 20px;
+  padding: 20px 5px 20px 5px;
 }
 .kanan {
   padding-top: 20px;
 }
 .container12luar {
+  background-color: whitesmoke;
   width: 100%;
   display: flex;
   justify-content: center;
